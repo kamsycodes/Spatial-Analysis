@@ -1,6 +1,7 @@
 # Spatial-Analysis
 https://qgiscloud.com/Mapper/Awka_South_Facility_Map/
-Please click the link above to access the map 
+Please click the link above to access the map. 
+The purpose of this project is for a virtual tour of Awka south Local Goverment Area. tourists are able to view the different facilities available in the LGA and other features eg. roads that connect them.
 The data collection for this project was done in two phases, field capture using GPS essential app, and extraction from google map( for the points that have been mapped by other people, and can be easily picked from google as POI), this is for point data(hotel, health facility,tourist sites, and town), note: some of the points captured in the field has videos and pictures attached to their attributes. 
 
 The road, building, stream, and lake were extracted them from open street map using 'Download OSM  data by rectangle selection' plugin in Qgis. Using this plugin, you can get vector data of an area which will include road, building, stream, lake and other vectors. They came in OSM format, which then I converted to shapefile. 
